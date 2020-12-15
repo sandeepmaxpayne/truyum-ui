@@ -1,0 +1,68 @@
+body{
+    margin-top: 0px;
+    margin: 0px;
+}
+header{
+    padding: 10px;
+    margin-top: -20px;
+    background-color: #305496;
+    width: auto;
+    height: 60px;
+}
+img{
+    margin-left: 20px;
+    width: 65px;
+    height: 45px;
+}
+#menu, #cart{
+    float: right;
+    color: white;
+    font-size: 0.8em;
+    margin-right: 50px;
+}
+
+
+.page-title{
+    color: white;
+    margin: 20px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    margin-top: 7em;
+    height: 31.5em;
+    width: auto;
+}
+
+table, td, th{
+    text-align: center;
+    border-collapse: separate;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+}
+.column-first{
+    padding-right: 30em;
+    text-align: left;
+}
+
+h2{
+    margin-left: 5rem;
+    font-size: 25px;
+    font-weight: 100px;
+    font-family: Arial;
+}
+.center{
+    margin-left: 5rem;
+}
+footer{
+    background-color: #BFBFBF;
+    width: auto;
+    height: 60px;
+    margin-bottom: 0px;
+
+}
+.copyright{
+    padding: 10px;
+    text-align: left;
+}

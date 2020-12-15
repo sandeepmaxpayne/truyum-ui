@@ -1,0 +1,69 @@
+body{
+    margin-top: 0px;
+    margin: 0px;
+}
+header{
+    padding: 10px;
+    margin-top: -20px;
+    background-color: #305496;
+    width: auto;
+    height: 60px;
+}
+img{
+    margin-left: 20px;
+    width: 65px;
+    height: 45px;
+}
+#menu, #cart{
+    float: right;
+    color: white;
+    font-size: 0.8em;
+    margin-right: 50px;
+}
+.page-title{
+    color: white;
+    margin: 20px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    margin-left: 10rem;
+    font-size: 30px;
+}
+a:hover{
+    color: blue;
+}
+#msg{
+    margin-left: 10rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+}
+#empty-message{
+    margin-left: 10rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: gray;
+}
+
+section{
+    margin-top: 7em;
+    height: 31.5em;
+    width: auto;
+}
+
+
+
+
+footer{
+    background-color: #BFBFBF;
+    width: auto;
+    height: 60px;
+    margin-bottom: 0px;
+
+}
+.copyright{
+    padding: 10px;
+    text-align: left;
+}

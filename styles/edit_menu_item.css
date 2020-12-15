@@ -1,0 +1,91 @@
+body{
+    margin-top: 0px;
+    margin: 0px;
+}
+header{
+    padding: 10px;
+    margin-top: -20px;
+    background-color: #305496;
+    width: auto;
+    height: 60px;
+}
+img{
+    margin-left: 20px;
+    width: 65px;
+    height: 45px;
+}
+#menu{
+    float: right;
+    color: white;
+    font-size: 0.8em;
+    margin-right: 50px;
+}
+.single-line{
+    display: inline-block;
+}
+.inner-first{
+    display: block;
+}
+.page-title{
+    color: white;
+    margin: 20px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    margin-top: 7em;
+    height: 31.5em;
+    width: auto;
+}
+h2{
+    margin-left: 10rem;
+    font-size: 30px;
+}
+
+#item-name{
+    width: 50em;
+}
+
+#enter-item-name{
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+#delivery{
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+table, td, th{
+    margin-top: 2rem;
+    margin-left: 10rem;
+    text-align: center;
+    border-collapse: separate;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+}
+th{
+    color: rgba(73, 70, 70, 0.788);
+}
+
+#save{
+    margin-top: 2rem;
+    margin-left: 10rem;
+    padding: 10px;
+    width: 8em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #305496;
+}
+
+footer{
+    background-color: #BFBFBF;
+    width: auto;
+    height: 60px;
+    margin-bottom: 0px;
+
+}
+.copyright{
+    padding: 10px;
+    text-align: left;
+}
