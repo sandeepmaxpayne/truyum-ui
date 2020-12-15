@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit-Menu-Item</title>
     <link rel="stylesheet" href="styles/edit_menu_item.css">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -21,10 +22,11 @@
         <div>
             <h2>Edit Menu Item</h2>
         </div>
-        <form action="" onsubmit="">
+        <form action="" name="edit-menu" onsubmit="return validation();">
             <div id="enter-item-name">
                 <div><label for="item-name">Name</label></div>
                 <div><input type="text" id="item-name" name="item-name" placeholder="enter item name" required></div>
+                <div id="name-error"></div>
             </div>
            
 
@@ -40,9 +42,11 @@
                     <td><input type="number" id="rs" name="rs" required></td>
                     <td>
                         <input type="radio" id="active-yes" value="yes" name="active">
+                        <label for="active-yes">Yes</label>
                         <input type="radio" id="active-no" value="no" name="active">
+                        <label for="active-no">No</label>
                     </td>
-                    <td><input type="date" id="launch-date" name="launch-date"></td>    
+                    <td><input type="date" id="launch-date" name="launch-date" required></td>    
                     <td>
                         <select name="category" id="category">
                             <option value="Starters">Starters</option>
@@ -59,7 +63,7 @@
                 <label for="free-delivery">Free Delivery</label>
             </div>
 
-            <button id="save" name="save">Save</button>
+            <button type="submit" id="save" name="save">Save</button>
 
         </form>
     </section>

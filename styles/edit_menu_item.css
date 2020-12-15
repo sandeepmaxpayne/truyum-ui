@@ -16,7 +16,7 @@ img{
 }
 #menu{
     float: right;
-    color: white;
+    color: #ffffff;
     font-size: 0.8em;
     margin-right: 50px;
 }
@@ -27,7 +27,7 @@ img{
     display: block;
 }
 .page-title{
-    color: white;
+    color: #ffffff;
     margin: 20px;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
@@ -51,6 +51,10 @@ h2{
     margin-top: 2rem;
     margin-left: 10rem;
 }
+#name-error{
+    color: rgb(255, 0, 0);
+}
+
 #delivery{
     margin-top: 2rem;
     margin-left: 10rem;
