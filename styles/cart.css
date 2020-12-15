@@ -52,6 +52,15 @@ h2{
     font-weight: 100px;
     font-family: Arial;
 }
+
+#remove-message{
+    color: #00b050;
+    font-weight: bold;
+    margin-left: 25rem;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .center{
    
     margin-left: 5rem;

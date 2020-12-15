@@ -25,10 +25,9 @@
         <form action="" name="edit-menu" onsubmit="return validation();">
             <div id="enter-item-name">
                 <div><label for="item-name">Name</label></div>
-                <div><input type="text" id="item-name" name="item-name" placeholder="enter item name" pattern="[A-Za-z\s]{2,}" title="Title should have 2 to 65 characters!" required></div>
+                <div><input type="text" id="item-name" name="item-name" placeholder="enter item name" required></div>
                 <div id="name-error"></div>
             </div>
-           
 
             <table>
                 <tr>
@@ -39,7 +38,7 @@
                 </tr>
                 
                 <tr>
-                    <td><input type="text" id="rs" name="rs" pattern="[0-9]+" title="Price has to be a number" required></td>
+                    <td><input type="text" id="rs" name="rs" required></td>
                     <td>
                         <input type="radio" id="active-yes" value="yes" name="active">
                         <label for="active-yes">Yes</label>

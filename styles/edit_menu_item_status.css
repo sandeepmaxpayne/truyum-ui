@@ -32,19 +32,19 @@ h2{
     font-size: 30px;
 }
 a:hover{
-    color: blue;
+    color: rgb(0, 0, 255);
 }
 #msg{
     margin-left: 10rem;
     font-size: 25px;
     font-weight: bold;
-    color: green;
+    color: rgb(1, 128, 1);
 }
 #empty-message{
     margin-left: 10rem;
     font-size: 25px;
     font-weight: bold;
-    color: gray;
+    color: rgb(128, 126, 126);
 }
 
 section{
