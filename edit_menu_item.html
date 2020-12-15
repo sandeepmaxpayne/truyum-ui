@@ -25,7 +25,7 @@
         <form action="" name="edit-menu" onsubmit="return validation();">
             <div id="enter-item-name">
                 <div><label for="item-name">Name</label></div>
-                <div><input type="text" id="item-name" name="item-name" placeholder="enter item name" required></div>
+                <div><input type="text" id="item-name" name="item-name" placeholder="enter item name" pattern="[A-Za-z\s]{2,}" title="Title should have 2 to 65 characters!" required></div>
                 <div id="name-error"></div>
             </div>
            
